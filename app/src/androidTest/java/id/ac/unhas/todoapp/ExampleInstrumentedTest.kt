@@ -1,4 +1,4 @@
-package id.ac.unhas.todoapp
+package com.id.ac.unhas.todolist
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("id.ac.unhas.todoapp", appContext.packageName)
+        assertEquals("com.id.ac.unhas.todolist", appContext.packageName)
     }
 }
